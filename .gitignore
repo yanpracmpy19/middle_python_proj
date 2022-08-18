@@ -1,0 +1,9 @@
+# Environments
+# позаимствовано с https://github.com/github/gitignore/blob/main/Python.gitignore
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/

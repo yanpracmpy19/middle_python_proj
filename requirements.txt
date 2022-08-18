@@ -1,0 +1,13 @@
+django==3.2
+flake8==4.0  # Разумеется, вам потребуется линтер :)
+flake8-bandit==2.1.2
+bandit==1.7.2
+python-dotenv==0.20.0 # https://pypi.org/project/python-dotenv/0.20.0/
+psycopg2-binary==2.9.3
+psycopg2==2.9.3 # при установке могут быть проблемы
+#если Ubuntu - http://web.archive.org/web/20140615091953/http://goshawknest.wordpress.com/2011/02/16/how-to-install-psycopg2-under-virtualenv/
+# команда: sudo apt-get install libpq-dev python-dev
+# если Fedora - https://unix.stackexchange.com/questions/594466/how-to-install-libpq-dev-on-fedora
+# sudo dnf install libpq-devel python-devel
+django-split-settings==1.1.0
+django-debug-toolbar==3.4.0
